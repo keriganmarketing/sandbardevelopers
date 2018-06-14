@@ -1,0 +1,226 @@
+
+.is-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.is-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.is-justified {
+  justify-content: center;
+}
+
+.is-justified-start {
+  justify-content: flex-start;
+}
+
+.is-justified-end {
+  justify-content: flex-end;
+}
+
+.is-justified-between {
+  justify-content: space-between;
+}
+
+.is-full-height {
+  height: 100%;
+}
+
+.is-caps {
+  text-transform: uppercase;
+}
+
+.is-outlined {
+  border: $white 1px solid;
+  color: $white;
+  background-color: transparent;
+}
+
+.is-round, .is-small.is-round {
+  border-radius: 9999px;
+}
+
+.is-rounded-small {
+  overflow: hidden;
+  border-radius: $radius-small;
+}
+
+.is-rounded {
+  overflow: hidden;
+  border-radius: $radius;
+}
+
+.is-rounded-large {
+  overflow: hidden;
+  border-radius: $radius-large;
+}
+
+.is-aligned {
+  align-items: center;
+}
+
+.is-transparent {
+  background-color: transparent;
+}
+
+.is-bold {
+  font-weight: $weight-bold;
+}
+
+.title.is-primary {
+  color: $primary;
+}
+.title.is-secondary {
+  color: $secondary;
+}
+.title.is-tertiary {
+  color: $tertiary;
+}
+.title.is-info {
+  color: $info;
+}
+
+.is-first {
+  order: 1;
+}
+
+.is-second {
+  order: 2;
+}
+
+.is-third {
+  order: 3;
+}
+
+.px-4 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.p-4 {
+  padding: 1.5rem;
+}
+
+.is-first-tablet {
+  @media screen and (min-width: $tablet) {
+    order: 1;
+  }
+}
+
+.is-second-tablet {
+  @media screen and (min-width: $tablet) {
+    order: 2;
+  }
+}
+
+.is-third-tablet {
+  @media screen and (min-width: $tablet) {
+    order: 3;
+  }
+}
+
+.is-first-desktop {
+  @media screen and (min-width: $desktop) {
+    order: 1;
+  }
+}
+
+.is-second-desktop {
+  @media screen and (min-width: $desktop) {
+    order: 2;
+  }
+}
+
+.is-third-desktop {
+  @media screen and (min-width: $desktop) {
+    order: 3;
+  }
+}
+
+.is-first-widescreen {
+  @media screen and (min-width: $widescreen) {
+    order: 1;
+  }
+}
+
+.is-second-widescreen {
+  @media screen and (min-width: $widescreen) {
+    order: 2;
+  }
+}
+
+.is-third-widescreen {
+  @media screen and (min-width: $widescreen) {
+    order: 3;
+  }
+}
+
+.is-centered {
+  .image {
+    justify-self: center;
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .has-text-centered-desktop {
+    text-align: center;
+  }
+  .has-text-left-desktop {
+    text-align: left;
+  }
+  .has-text-right-desktop {
+    text-align: right;
+  }
+}
+
+.tablet-show {
+  display: none;
+}
+
+@media screen and (max-width: $tablet) {
+  .tablet-hide {
+    display: none;
+  }
+  .tablet-show {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mobile-hide {
+    display: none;
+  }
+}
+
+.title.is-info {
+  color: $info;
+}
+.title.is-primary {
+  color: $primary;
+}
+.title.is-white {
+  color: $white;
+}
+span.is-info {
+  color: $info;
+}
+span.is-primary {
+  color: $primary;
+}
+
+
+.is-hidden-fullhd{
+  @media screen and (max-width: $fullhd){
+    display: none;
+  }
+}
