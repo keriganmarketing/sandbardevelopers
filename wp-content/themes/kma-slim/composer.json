@@ -8,6 +8,7 @@
     }
   },
   "require": {
-    "kerigansolutions/cpt": "^0.3.0"
+    "kerigansolutions/cpt": "^0.3.0",
+    "guzzlehttp/guzzle": "^6.3"
   }
 }
