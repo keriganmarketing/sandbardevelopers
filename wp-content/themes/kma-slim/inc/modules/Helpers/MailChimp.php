@@ -58,7 +58,7 @@ class MailChimp
             $api->post('/3.0/lists/' . $this->listId . '/members', (isset($data) ? $data : $options));
             $success = true;
         }catch(\Exception $e) {
-            //echo '<pre>',print_r($e->getResponse()->getBody()->getContents(), TRUE),'</pre>';
+            echo '<pre>',print_r($e->getResponse()->getBody()->getContents(), TRUE),'</pre>';
             $success = false;
         }
     }
