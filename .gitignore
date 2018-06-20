@@ -13,6 +13,6 @@ wp-content/themes/kma-slim/package-lock.json
 wp-content/themes/kma-slim/composer.lock
 
 # Untracked prod files
-# wp-content/uploads/**
-# wp-admin/**
-# wp-includes/**
+wp-content/uploads/**
+wp-admin/**
+wp-includes/**
